@@ -15,7 +15,7 @@ public class Octahedron extends Polyhedron{
     
     @Override
     public String toString(){
-        return "id = " + this.getId() + ", " + this.getName() + " (" +
+        return this.getTime() + ";" +"id = " + this.getId() + ", " + this.getName() + " (" +
                 this.getA() + "), Периметр = " + perimeter +", Периметр грани = " 
                 + perimeterFace;
     }

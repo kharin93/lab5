@@ -15,7 +15,7 @@ public class Hexahedron extends Polyhedron{
     
     @Override
     public String toString(){
-        return "id = " + this.getId() + ", " + this.getName() + " (" +
+        return this.getTime() + ";" +"id = " + this.getId() + ", " + this.getName() + " (" +
                 a + "), Диагональ куба = " + diagonal +", Диагональ грани = " 
                 + diagonalFace;
     }
